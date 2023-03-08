@@ -25,8 +25,14 @@
 
 Each individual blocks contain separate information. We want to connect the different blocks together. 
 1. Coins
+Display different countries coin's quantiy, value...
+Notice that 1 tons of Carbon Credit = 1 Greencoin
 2. Users
+Display User's information (Countries' coins quantities, value....)
 3. Assets
+
+
+
 
 
 
