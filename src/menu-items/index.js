@@ -3,7 +3,7 @@ import users from './users';
 import partners from './partners';
 import bonds from './bonds';
 import finance from './finance';
-import marketing from './marteting';
+import marketing from './marketing';
 import log from './log';
 import config from './config';
 
