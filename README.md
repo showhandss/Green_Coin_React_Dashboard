@@ -23,6 +23,11 @@
     
 
 
+Each individual blocks contain separate information. We want to connect the different blocks together. 
+1. Coins
+2. Users
+3. Assets
+
 
 
 
