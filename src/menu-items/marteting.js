@@ -15,7 +15,7 @@ const marketing = {
             id: 'contents',
             title: 'Contents',
             type: 'item',
-            url: '/dashboard/contents',
+            url: '/marketing/contents',
             icon: icons.IconMessage,
             breadcrumbs: false
         },
@@ -23,7 +23,7 @@ const marketing = {
             id: 'popups',
             title: 'Popups',
             type: 'item',
-            url: '/dashboard/popups',
+            url: '/marketing/popups',
             icon: icons.IconBell,
             breadcrumbs: false
         },
@@ -31,7 +31,7 @@ const marketing = {
             id: 'notifications',
             title: 'Notifications',
             type: 'item',
-            url: '/dashboard/notifications',
+            url: '/marketing/notifications',
             icon: icons.IconNotification,
             breadcrumbs: false
         }

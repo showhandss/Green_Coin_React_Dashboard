@@ -15,7 +15,7 @@ const log = {
             id: 'userlogs',
             title: 'User Logs',
             type: 'item',
-            url: '/dashboard/userlogs',
+            url: '/log/userlogs',
             icon: icons.IconFileChart,
             breadcrumbs: false
         },
@@ -23,7 +23,7 @@ const log = {
             id: 'adminlogs',
             title: 'Admin Logs',
             type: 'item',
-            url: '/dashboard/adminlogs',
+            url: '/log/adminlogs',
             icon: icons.IconFileCheck,
             breadcrumbs: false
         },
@@ -31,7 +31,7 @@ const log = {
             id: 'blockchainlogs',
             title: 'Blockchain Logs',
             type: 'item',
-            url: '/dashboard/blockchainlogs',
+            url: '/log/blockchainlogs',
             icon: icons.IconBrandTabler,
             breadcrumbs: false
         }

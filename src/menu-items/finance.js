@@ -15,7 +15,7 @@ const finance = {
             id: 'requests',
             title: 'Requests',
             type: 'item',
-            url: '/dashboard/requests',
+            url: '/finance/requests',
             icon: icons.IconTransitionBottom,
             breadcrumbs: false
         }

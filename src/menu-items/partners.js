@@ -15,7 +15,7 @@ const partners = {
             id: 'issuers',
             title: 'Issuers',
             type: 'item',
-            url: '/users/issuers',
+            url: '/partners/issuers',
             icon: icons.IconZoomMoney,
             breadcrumbs: false
         },
@@ -23,7 +23,7 @@ const partners = {
             id: 'bookrunners',
             title: 'Bookrunners',
             type: 'item',
-            url: '/users/bookrunners',
+            url: '/partners/bookrunners',
             icon: icons.IconReportMoney,
             breadcrumbs: false
         }

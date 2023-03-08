@@ -15,7 +15,7 @@ const bonds = {
             id: 'deals',
             title: 'Deals',
             type: 'item',
-            url: '/dashboard/deals',
+            url: '/bonds/deals',
             icon: icons.IconTransferIn,
             breadcrumbs: false
         }
