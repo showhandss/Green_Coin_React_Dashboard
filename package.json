@@ -1,8 +1,8 @@
 {
-    "name": "berry-material-react-free",
-    "version": "3.3.1",
+    "name": "green-coin-react-dashboard",
+    "version": "0.0.3",
     "private": true,
-    "homepage": "https://berrydashboard.io/free",
+    "homepage": "/",
     "dependencies": {
         "@emotion/cache": "^11.9.3",
         "@emotion/react": "^11.9.3",
