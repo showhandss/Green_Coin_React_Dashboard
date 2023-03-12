@@ -6,9 +6,12 @@ import Loadable from 'ui-component/Loadable';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
-// admin routing
+// users routing
 const AdminDefault = Loadable(lazy(() => import('views/users/admin')));
 const ProjectOwnerDefault = Loadable(lazy(() => import('views/users/project-owner')));
+const CustomerDefault = Loadable(lazy(() => import('views/users/customer')));
+// bondss routing
+const DealsDefault = Loadable(lazy(() => import('views/bonds/deals')));
 
 // utilities routing
 const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
@@ -49,6 +52,19 @@ const MainRoutes = {
                 {
                     path: 'project-owner',
                     element: <ProjectOwnerDefault />
+                },
+                {
+                    path: 'customer',
+                    element: <CustomerDefault />
+                }
+            ]
+        },
+        {
+            path: 'bonds',
+            children: [
+                {
+                    path: 'deals',
+                    element: <DealsDefault />
                 }
             ]
         },

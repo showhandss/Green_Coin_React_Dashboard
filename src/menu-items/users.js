@@ -26,6 +26,14 @@ const users = {
             url: '/users/project-owner',
             icon: icons.IconUsers,
             breadcrumbs: false
+        },
+        {
+            id: 'customer',
+            title: 'Customer',
+            type: 'item',
+            url: '/users/customer',
+            icon: icons.IconUsers,
+            breadcrumbs: false
         }
     ]
 };

@@ -1,8 +1,9 @@
 # GreenCoin
 
 1. Users
-    -Customers
     -Admins
+    -Project Owners
+    -Customers
 2. Partners
     -Issuers
     -Bookrunners
