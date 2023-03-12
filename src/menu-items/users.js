@@ -20,10 +20,10 @@ const users = {
             breadcrumbs: false
         },
         {
-            id: 'customer',
-            title: 'Customer',
+            id: 'project-owner',
+            title: 'Project Owner',
             type: 'item',
-            url: '/users/customer',
+            url: '/users/project-owner',
             icon: icons.IconUsers,
             breadcrumbs: false
         }

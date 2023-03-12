@@ -8,6 +8,7 @@ import Loadable from 'ui-component/Loadable';
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
 // admin routing
 const AdminDefault = Loadable(lazy(() => import('views/users/admin')));
+const ProjectOwnerDefault = Loadable(lazy(() => import('views/users/project-owner')));
 
 // utilities routing
 const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
@@ -44,6 +45,10 @@ const MainRoutes = {
                 {
                     path: 'admin',
                     element: <AdminDefault />
+                },
+                {
+                    path: 'project-owner',
+                    element: <ProjectOwnerDefault />
                 }
             ]
         },
