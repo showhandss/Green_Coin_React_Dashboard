@@ -6,10 +6,12 @@ import Loadable from 'ui-component/Loadable';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
+const CustomerDefault = Loadable(lazy(() => import('views/dashboard/customers')));
+const InvestmentDefault = Loadable(lazy(() => import('views/dashboard/investments')));
+
 // users routing
 const AdminDefault = Loadable(lazy(() => import('views/users/admin')));
 const ProjectOwnerDefault = Loadable(lazy(() => import('views/users/project-owner')));
-const CustomerDefault = Loadable(lazy(() => import('views/users/customer')));
 // bonds routing
 const DealsDefault = Loadable(lazy(() => import('views/bonds/deals')));
 // partners routing
@@ -46,6 +48,14 @@ const MainRoutes = {
                 {
                     path: 'default',
                     element: <DashboardDefault />
+                },
+                {
+                    path: 'customers',
+                    element: <CustomerDefault />
+                },
+                {
+                    path: 'investments',
+                    element: <InvestmentDefault />
                 }
             ]
         },

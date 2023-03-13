@@ -12,7 +12,7 @@ const dashboard = {
     type: 'group',
     children: [
         {
-            id: 'default',
+            id: 'customer',
             title: 'Customers',
             type: 'item',
             url: '/dashboard/customers',
@@ -20,10 +20,10 @@ const dashboard = {
             breadcrumbs: false
         },
         {
-            id: 'default',
+            id: 'investment',
             title: 'Investment',
             type: 'item',
-            url: '/dashboard/investment',
+            url: '/dashboard/investments',
             icon: icons.IconReportMoney,
             breadcrumbs: false
         },
