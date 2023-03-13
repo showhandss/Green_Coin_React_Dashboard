@@ -15,6 +15,10 @@ const DealsDefault = Loadable(lazy(() => import('views/bonds/deals')));
 // partners routing
 const IssuersDefault = Loadable(lazy(() => import('views/partners/issuers')));
 const BookrunnersDefault = Loadable(lazy(() => import('views/partners/bookrunners')));
+// log routing
+const UserlogDefault = Loadable(lazy(() => import('views/log/userlogs')));
+const AdminlogDefault = Loadable(lazy(() => import('views/log/adminlogs')));
+const BlockchainlogDefault = Loadable(lazy(() => import('views/log/blockchainlogs')));
 
 // utilities routing
 const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
@@ -81,6 +85,23 @@ const MainRoutes = {
                 {
                     path: 'bookrunners',
                     element: <BookrunnersDefault />
+                }
+            ]
+        },
+        {
+            path: 'log',
+            children: [
+                {
+                    path: 'userlogs',
+                    element: <UserlogDefault />
+                },
+                {
+                    path: 'adminlogs',
+                    element: <AdminlogDefault />
+                },
+                {
+                    path: 'blockchainlogs',
+                    element: <BlockchainlogDefault />
                 }
             ]
         },

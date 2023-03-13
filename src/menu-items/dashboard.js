@@ -1,8 +1,8 @@
 // assets
-import { IconDashboard, IconKey } from '@tabler/icons';
+import { IconReportMoney, IconUsers, IconKey } from '@tabler/icons';
 
 // constant
-const icons = { IconDashboard, IconKey };
+const icons = { IconReportMoney, IconUsers, IconKey };
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -13,10 +13,18 @@ const dashboard = {
     children: [
         {
             id: 'default',
-            title: 'Dashboard',
+            title: 'Customers',
             type: 'item',
-            url: '/dashboard/default',
-            icon: icons.IconDashboard,
+            url: '/dashboard/customers',
+            icon: icons.IconUsers,
+            breadcrumbs: false
+        },
+        {
+            id: 'default',
+            title: 'Investment',
+            type: 'item',
+            url: '/dashboard/investment',
+            icon: icons.IconReportMoney,
             breadcrumbs: false
         },
         {
