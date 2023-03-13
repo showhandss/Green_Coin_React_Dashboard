@@ -34,23 +34,24 @@
         "jsx-a11y/anchor-is-valid": 0,
         "prefer-destructuring": 0,
         "no-shadow": 0,
+        "prettier/prettier": "off",
         "no-unused-vars": [
             1,
             {
                 "ignoreRestSiblings": false
             }
         ],
-        "prettier/prettier": [
-            2,
-            {
-                "bracketSpacing": true,
-                "printWidth": 140,
-                "singleQuote": true,
-                "trailingComma": "none",
-                "tabWidth": 4,
-                "useTabs": false,
-                "endOfLine": "auto"
-            }
-        ]
+        // "prettier/prettier": [
+        //     2,
+        //     {
+        //         "bracketSpacing": true,
+        //         "printWidth": 140,
+        //         "singleQuote": true,
+        //         "trailingComma": "none",
+        //         "tabWidth": 4,
+        //         "useTabs": false,
+        //         "endOfLine": "auto"
+        //     }
+        // ]
     }
 }
