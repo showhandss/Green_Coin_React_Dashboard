@@ -10,8 +10,11 @@ const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')))
 const AdminDefault = Loadable(lazy(() => import('views/users/admin')));
 const ProjectOwnerDefault = Loadable(lazy(() => import('views/users/project-owner')));
 const CustomerDefault = Loadable(lazy(() => import('views/users/customer')));
-// bondss routing
+// bonds routing
 const DealsDefault = Loadable(lazy(() => import('views/bonds/deals')));
+// partners routing
+const IssuersDefault = Loadable(lazy(() => import('views/partners/issuers')));
+const BookrunnersDefault = Loadable(lazy(() => import('views/partners/bookrunners')));
 
 // utilities routing
 const UtilsTypography = Loadable(lazy(() => import('views/utilities/Typography')));
@@ -65,6 +68,19 @@ const MainRoutes = {
                 {
                     path: 'deals',
                     element: <DealsDefault />
+                }
+            ]
+        },
+        {
+            path: 'partners',
+            children: [
+                {
+                    path: 'issuers',
+                    element: <IssuersDefault />
+                },
+                {
+                    path: 'bookrunners',
+                    element: <BookrunnersDefault />
                 }
             ]
         },
