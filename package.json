@@ -12,6 +12,7 @@
         "@mui/material": "^5.8.6",
         "@mui/system": "^5.8.6",
         "@mui/utils": "^5.8.6",
+        "@mui/x-data-grid": "^5.8.6",
         "@tabler/icons": "^1.72.0",
         "apexcharts": "^3.35.3",
         "formik": "^2.2.9",
