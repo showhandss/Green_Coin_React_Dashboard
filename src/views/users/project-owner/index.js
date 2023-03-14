@@ -5,7 +5,7 @@ import DataTable from 'ui-component/Table';
 import Card from '@mui/material/Card';
 import { DataGrid } from '@mui/x-data-grid';
 
-const CustomerPage = () => {
+const ProjectOwnerPage = () => {
   const [isLoading, setLoading] = useState(true);
   
   const columns = [
@@ -56,4 +56,4 @@ const CustomerPage = () => {
   )
 };
 
-export default CustomerPage;
+export default ProjectOwnerPage;

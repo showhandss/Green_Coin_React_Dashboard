@@ -10,8 +10,8 @@ const OverviewDefault = Loadable(lazy(() => import('views/dashboard/overview')))
 const InvestmentDefault = Loadable(lazy(() => import('views/dashboard/investments')));
 
 // users routing
-const AdminDefault = Loadable(lazy(() => import('views/users/admin')));
-const ProjectOwnerDefault = Loadable(lazy(() => import('views/users/project-owner')));
+const AdminPage = Loadable(lazy(() => import('views/users/admin')));
+const ProjectOwnerPage = Loadable(lazy(() => import('views/users/project-owner')));
 const CustomerPage = Loadable(lazy(() => import('views/users/customer')));
 // bonds routing
 const DealsDefault = Loadable(lazy(() => import('views/bonds/deals')));
@@ -65,11 +65,11 @@ const MainRoutes = {
             children: [
                 {
                     path: 'admin',
-                    element: <AdminDefault />
+                    element: <AdminPage />
                 },
                 {
                     path: 'project-owner',
-                    element: <ProjectOwnerDefault />
+                    element: <ProjectOwnerPage />
                 },
                 {
                     path: 'customer',
