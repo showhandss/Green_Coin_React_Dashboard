@@ -5,7 +5,7 @@
 //import { DataGrid } from '@mui/x-data-grid';
 //import { useEffect, useState } from 'react';
 
-import DataTable from 'ui-component/Table';
+//import DataTable from 'ui-component/Table';
 
 const columns = [
     { field: 'id', headerName: 'ID', width: 70 },

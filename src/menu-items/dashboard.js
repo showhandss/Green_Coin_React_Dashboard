@@ -12,10 +12,10 @@ const dashboard = {
     type: 'group',
     children: [
         {
-            id: 'customers',
-            title: 'Customers',
+            id: 'overview',
+            title: 'Overview',
             type: 'item',
-            url: '/dashboard/customers',
+            url: '/dashboard/overview',
             icon: icons.IconUsers,
             breadcrumbs: false
         },
@@ -38,14 +38,14 @@ const dashboard = {
                     id: 'login3',
                     title: 'Login',
                     type: 'item',
-                    url: '/login/login3',
+                    url: '/pages/login/login3',
                     target: true
                 },
                 {
                     id: 'register3',
                     title: 'Register',
                     type: 'item',
-                    url: '/register/register3',
+                    url: '/pages/register/register3',
                     target: true
                 }
             ]
