@@ -9,36 +9,25 @@ const AdminPage = () => {
   const [isLoading, setLoading] = useState(true);
   
   const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
+    { field: 'id', headerName: 'Admin ID', width: 70 },
     { field: 'FirstName', headerName: 'First name', width: 130 },
     { field: 'LastName', headerName: 'Last name', width: 130 },
-    {
-      field: 'age',
-      headerName: 'Age',
-      type: 'number',
-      width: 90,
-    },
-    {
-      field: 'fullName',
-      headerName: 'Full name',
-      description: 'This column has a value getter and is not sortable.',
-      sortable: false,
-      width: 160,
-      valueGetter: (params) =>
-        `${params.row.firstName || ''} ${params.row.lastName || ''}`,
-    },
+    { field: 'Position', headerName: 'Position', width: 200 },
+    { field: 'Search', headerName: 'Search', width: 70 },
+    { field: 'Add', headerName: 'Add', width: 70 },
+    { field: 'Delete', headerName: 'Delete', width: 70 },
+    { field: 'Change', headerName: 'Change', width: 70 },
   ];
 
   const rows = [
-    { id: 1, LastName: 'Snow', FirstName: 'Jon', age: 35 },
-    { id: 2, LastName: 'Lannister', FirstName: 'Cersei', age: 42 },
-    { id: 3, LastName: 'Lannister', FirstName: 'Jaime', age: 45 },
-    { id: 4, LastName: 'Stark', FirstName: 'Arya', age: 16 },
-    { id: 5, LastName: 'Targaryen', FirstName: 'Daenerys', age: null },
-    { id: 6, LastName: 'Melisandre', FirstName: null, age: 150 },
-    { id: 7, LastName: 'Clifford', FirstName: 'Ferrara', age: 44 },
-    { id: 8, LastName: 'Frances', FirstName: 'Rossini', age: 36 },
-    { id: 9, LastName: 'Roxie', FirstName: 'Harvey', age: 65 },
+    { id: 1, LastName: 'Fanny', FirstName: 'Mok', Position: 'Project manager', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 2, LastName: 'Jerry', FirstName: 'Li', Position: 'Developer', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 3, LastName: 'Halo', FirstName: 'Tang', Position: 'Developer', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 4, LastName: 'Lyranda', FirstName: 'Li', Position: 'Data analyst', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 5, LastName: 'Daniel', FirstName: 'Deng', Position: 'Test engineer', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 6, LastName: 'Austin', FirstName: 'Ma', Position: 'Maintenance', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 7, LastName: 'Victor', FirstName: 'Huang', Position: 'Assessing', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 8, LastName: 'Alfrdli', FirstName: 'AL', Position: 'Inverstor', Search: '+', Add: '+', Delete: '+', Change: '+'},
   ];
 
   useEffect(() => {
