@@ -1,12 +1,13 @@
 # Get Global Move - GreenCoin React Dashboard
 
 1. Dashboard
-    - Customers: 呈现平台内用户增长量的面板
+    - Overview: 呈现平台内用户增长量的面板
     - Orders: 呈现平台内资金增长量的面板
+    - Authentication: 注册&登录
 2. Users
-    - Admins: 查询整个项目的管理者
+    - Admins: 管理者资料查询
     - Project Owners: 查询各个币种下的管理者
-    - Customers: 根据特定标准查询相关客户
+    - Customer: 根查询相关客户面板
 3. Bonds
     - Deals: 根据特定标准查询相关交易细节
 4. Finance
