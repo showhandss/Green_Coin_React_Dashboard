@@ -20,7 +20,7 @@ const data = [
     color: 'primary',
     amount: '$24,895.65',
     subtitle: 'Vuejs, React & HTML',
-    imgSrc: '/images/cards/logo-zipcar.png'
+    imgSrc: '/images/overview/logo-zipcar.png'
   },
   {
     progress: 50,
@@ -29,7 +29,7 @@ const data = [
     title: 'Bitbank',
     amount: '$8,650.20',
     subtitle: 'Sketch, Figma & XD',
-    imgSrc: '/images/cards/logo-bitbank.png'
+    imgSrc: '/images/overview/logo-bitbank.png'
   },
   {
     progress: 20,
@@ -38,7 +38,7 @@ const data = [
     color: 'secondary',
     amount: '$1,245.80',
     subtitle: 'HTML & Angular',
-    imgSrc: '/images/cards/logo-aviato.png'
+    imgSrc: '/images/overview/logo-aviato.png'
   }
 ]
 
@@ -87,7 +87,7 @@ const TotalEarning = () => {
                   mr: 3,
                   width: 40,
                   height: 40,
-                  backgroundColor: theme => `rgba(${theme.palette.customColors.main}, 0.04)`
+                  backgroundColor: 'text.primary'
                 }}
               >
                 <img src={item.imgSrc} alt={item.title} height={item.imgHeight} />
