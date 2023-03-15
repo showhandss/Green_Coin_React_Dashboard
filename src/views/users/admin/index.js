@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { Grid } from '@mui/material';
 import DataTable from 'ui-component/Table';
 import Card from '@mui/material/Card';
-import { DataGrid } from '@mui/x-data-grid';
 
 const AdminPage = () => {
   const [isLoading, setLoading] = useState(true);

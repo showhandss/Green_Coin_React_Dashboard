@@ -3,42 +3,28 @@ import { useState, useEffect } from 'react';
 import { Grid } from '@mui/material';
 import DataTable from 'ui-component/Table';
 import Card from '@mui/material/Card';
-import { DataGrid } from '@mui/x-data-grid';
 
 const CustomerPage = () => {
   const [isLoading, setLoading] = useState(true);
   
   const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'FirstName', headerName: 'First name', width: 130 },
-    { field: 'LastName', headerName: 'Last name', width: 130 },
-    {
-      field: 'age',
-      headerName: 'Age',
-      type: 'number',
-      width: 90,
-    },
-    {
-      field: 'fullName',
-      headerName: 'Full name',
-      description: 'This column has a value getter and is not sortable.',
-      sortable: false,
-      width: 160,
-      valueGetter: (params) =>
-        `${params.row.firstName || ''} ${params.row.lastName || ''}`,
-    },
+    { field: 'id', headerName: 'Customer ID', width: 100 },
+    { field: 'UserName', headerName: 'User Name', width: 130 },
+    { field: 'gender', headerName: 'Gender', width: 130 },
+    { field: 'region', headerName: 'Region', width: 130 },
+    { field: 'age', headerName: 'Age', width: 90 },
+    { field: 'balance', headerName: 'Balance', width: 90 },
   ];
 
   const rows = [
-    { id: 1, LastName: 'Snow', FirstName: 'Jon', age: 35 },
-    { id: 2, LastName: 'Lannister', FirstName: 'Cersei', age: 42 },
-    { id: 3, LastName: 'Lannister', FirstName: 'Jaime', age: 45 },
-    { id: 4, LastName: 'Stark', FirstName: 'Arya', age: 16 },
-    { id: 5, LastName: 'Targaryen', FirstName: 'Daenerys', age: null },
-    { id: 6, LastName: 'Melisandre', FirstName: null, age: 150 },
-    { id: 7, LastName: 'Clifford', FirstName: 'Ferrara', age: 44 },
-    { id: 8, LastName: 'Frances', FirstName: 'Rossini', age: 36 },
-    { id: 9, LastName: 'Roxie', FirstName: 'Harvey', age: 65 },
+    { id: 1, UserName: 'Snow', gender: 'Male', region: 'Beijing', age: 35, balance: 100 },
+    { id: 2, UserName: 'Lannister', gender: 'Bigender', region: 'Shanghai', age: 42, balance: 50 },
+    { id: 3, UserName: 'Jaime', gender: 'Female', region: 'Shenzhen', age: 45, balance: 0 },
+    { id: 4, UserName: 'Stark', gender: 'Androgynous', region: 'Guangdong', age: 16, balance: 10 },
+    { id: 5, UserName: 'Targaryen', gender: 'Male', region: 'Tianjin', age: 18, balance: 25 },
+    { id: 6, UserName: 'Melisandre', gender: 'Female', region: 'Guangdong', age: 150, balance: 45 },
+    { id: 7, UserName: 'Clifford', gender: 'Female', region: 'Hubei', age: 44, balance: 60 },
+    { id: 8, UserName: 'Frances', gender: 'Male', region: 'Fujian', age: 36, balance: 10 },
   ];
 
   useEffect(() => {

@@ -3,13 +3,12 @@ import { useState, useEffect } from 'react';
 import { Grid } from '@mui/material';
 import DataTable from 'ui-component/Table';
 import Card from '@mui/material/Card';
-import { DataGrid } from '@mui/x-data-grid';
 
 const ProjectOwnerPage = () => {
   const [isLoading, setLoading] = useState(true);
   
   const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
+    { field: 'id', headerName: 'Project Owner ID', width: 130 },
     { field: 'region', headerName: 'Region', width: 130 },
     { field: 'projectid', headerName: 'Project ID', width: 130 },
     { field: 'date', headerName: 'Date', width: 130 },
