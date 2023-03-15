@@ -20,14 +20,14 @@ const AdminPage = () => {
   ];
 
   const rows = [
-    { id: 1, LastName: 'Fanny', FirstName: 'Mok', Position: 'Project manager', Search: '+', Add: '+', Delete: '+', Change: '+'},
-    { id: 2, LastName: 'Jerry', FirstName: 'Li', Position: 'Developer', Search: '+', Add: '+', Delete: '+', Change: '+'},
-    { id: 3, LastName: 'Halo', FirstName: 'Tang', Position: 'Developer', Search: '+', Add: '+', Delete: '+', Change: '+'},
-    { id: 4, LastName: 'Lyranda', FirstName: 'Li', Position: 'Data analyst', Search: '+', Add: '+', Delete: '+', Change: '+'},
-    { id: 5, LastName: 'Daniel', FirstName: 'Deng', Position: 'Test engineer', Search: '+', Add: '+', Delete: '+', Change: '+'},
-    { id: 6, LastName: 'Austin', FirstName: 'Ma', Position: 'Maintenance', Search: '+', Add: '+', Delete: '+', Change: '+'},
-    { id: 7, LastName: 'Victor', FirstName: 'Huang', Position: 'Assessing', Search: '+', Add: '+', Delete: '+', Change: '+'},
-    { id: 8, LastName: 'Alfrdli', FirstName: 'AL', Position: 'Inverstor', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 1, LastName: 'Mok', FirstName: 'Fanny', Position: 'Project manager', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 2, LastName: 'Li', FirstName: 'Jerry', Position: 'Developer', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 3, LastName: 'Tang', FirstName: 'Halo', Position: 'Developer', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 4, LastName: 'Li', FirstName: 'Lyranda', Position: 'Data analyst', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 5, LastName: 'Deng', FirstName: 'Daniel', Position: 'Test engineer', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 6, LastName: 'Ma', FirstName: 'Austin', Position: 'Maintenance', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 7, LastName: 'Wong', FirstName: 'Victor', Position: 'Assessing', Search: '+', Add: '+', Delete: '+', Change: '+'},
+    { id: 8, LastName: 'AL', FirstName: 'Alfrdli', Position: 'Inverstor', Search: '+', Add: '+', Delete: '+', Change: '+'},
   ];
 
   useEffect(() => {
