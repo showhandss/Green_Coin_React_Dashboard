@@ -2,7 +2,7 @@
 
 1. Dashboard
     - Overview: 呈现平台内用户增长量的面板
-    - Orders: 呈现平台内资金增长量的面板
+    - Investment: 呈现平台内资金增长量的面板
     - Authentication: 注册&登录
 2. Users
     - Admins: 管理者资料查询
