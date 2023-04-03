@@ -13,8 +13,9 @@ const InvestmentDefault = Loadable(lazy(() => import('views/dashboard/investment
 const AdminPage = Loadable(lazy(() => import('views/users/admin')));
 const ProjectOwnerPage = Loadable(lazy(() => import('views/users/project-owner')));
 const CustomerPage = Loadable(lazy(() => import('views/users/customer')));
-// bonds routing
-const DealsDefault = Loadable(lazy(() => import('views/bonds/deals')));
+// transaction routing
+const RequestDefault = Loadable(lazy(() => import('views/transaction/request')));
+const DealsDefault = Loadable(lazy(() => import('views/transaction/deals')));
 // partners routing
 const IssuersDefault = Loadable(lazy(() => import('views/partners/issuers')));
 const BookrunnersDefault = Loadable(lazy(() => import('views/partners/bookrunners')));
@@ -78,11 +79,15 @@ const MainRoutes = {
             ]
         },
         {
-            path: 'bonds',
+            path: 'transaction',
             children: [
                 {
                     path: 'deals',
                     element: <DealsDefault />
+                },
+                {
+                    path: 'request',
+                    element: <RequestDefault/>
                 }
             ]
         },

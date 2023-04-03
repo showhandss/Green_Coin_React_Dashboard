@@ -1,14 +1,13 @@
 import dashboard from './dashboard';
 import users from './users';
-import bonds from './bonds';
-import finance from './finance';
+import transaction from './transaction';
 import log from './log';
 import config from './config';
 
 // ==============================|| MENU ITEMS ||============================== //
 
 const menuItems = {
-    items: [dashboard, users, bonds, finance, log, config]
+    items: [dashboard, users, transaction, log, config]
 };
 
 export default menuItems;
